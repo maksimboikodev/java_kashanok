@@ -3,7 +3,7 @@ public class Ex6 {
 
 int s=107;
 int a;
-if (((s/100)>0)&&((s/100))<10) {
+if (((s/100)>0)&&((s/100))<10) { //x>99&&x<1000
        System.out.println("Число трехзначное- YES");   
 }else{
     System.out.println("Число трехзначное- NO"); 
