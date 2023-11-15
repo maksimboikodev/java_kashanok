@@ -4,12 +4,13 @@ public class Ex13 {
         Random rand = new Random(); 
         int upperbound = 101;
 
-        int array[] = new int[10];
+        int [] array = new int[10];
+
         for(int i=0; i < 10; i++){
             array [i] = rand.nextInt(upperbound);
             }
 
-        int n=0;
+        int n=array[0];
         for (int i = 0; i < 10; i++) {
              if (array[i]> n){
                 n=array[i];

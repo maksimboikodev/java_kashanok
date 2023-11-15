@@ -1,9 +1,10 @@
-
+/*Определите сумму элементов одномерного массива, расположенных между
+минимальным и максимальным значениями.*/
 public class Ex16 {
     public static void main(String[] args) {
         int array [] = {1,7,5,6,3,15,10,5,4,6,4,2,8,6,9};
         
-        System.out.print(array.length)
+        System.out.print(array.length);
         
         int cap=0;
         int index=0;
