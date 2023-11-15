@@ -7,7 +7,7 @@
 1 1 1 1 1*/
 public class Ex17 {
     public static void main(String[] args) {
-        int arr[][]=new int[10][10];
+        int arr[][]=new int[6][6];
         int i,j;
 
         for (i=0;i<arr.length/2+1;i++){
